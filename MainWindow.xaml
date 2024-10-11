@@ -52,7 +52,7 @@
                  HorizontalAlignment="Right"
                  Width="250"
                  Background="#F0FFFF"
-                 LostFocus="ImageChangePerson"/>
+                 LostFocus="ChangePersonImage"/>
 
             <TextBox x:Name="personName"
                  Grid.Column="1"
@@ -120,7 +120,7 @@
                Margin="0,30,0,0"
                Source="/img/000-zdjecie.jpg"/>
 
-            <Image x:Name="fingerImage"
+            <Image x:Name="fingerPrintImage"
                Grid.Row="0"
                Grid.Column="1"
                Width="180"
